@@ -1,0 +1,167 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhiraj Singh Jadav | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="fixed w-full z-50 glass border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-2xl font-black text-blue-600 tracking-tighter">ASJ</span>
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wide">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#achievements" class="hover:text-blue-600 transition">Achievements</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+            <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-blue-700 transition">Hire Me</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-gradient min-h-screen flex items-center pt-20 text-white">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-blue-400 font-mono mb-4 text-lg">Greetings, I am</h2>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                    Abhiraj Singh <span class="text-blue-500">Jadav</span>
+                </h1>
+                <p class="text-slate-300 text-lg mb-8 leading-relaxed max-w-lg">
+                    A results-driven professional focused on innovation, strategic problem solving, and building impactful digital experiences.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#achievements" class="bg-white text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-blue-500 hover:text-white transition">View Work</a>
+                    <a href="#contact" class="border border-slate-500 px-8 py-3 rounded-full font-bold hover:bg-slate-800 transition">Get In Touch</a>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <div class="relative bg-slate-800 rounded-2xl overflow-hidden aspect-square border border-slate-700 shadow-2xl">
+                    <img src="your-photo.jpg" alt="Abhiraj Singh Jadav" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center text-slate-700 -z-10">
+                        <i class="fas fa-user text-9xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <span class="text-blue-600 font-bold tracking-widest uppercase text-xs">The Background</span>
+            <h2 class="text-4xl font-bold mt-2 mb-8">About Me</h2>
+            <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                I am Abhiraj Singh Jadav, a motivated individual with a deep passion for continuous learning and professional excellence. My approach combines technical proficiency with a strong focus on effective communication and team collaboration. I strive to deliver solutions that are not just functional, but meaningful.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">My Expertise</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <i class="fas fa-brain text-4xl text-blue-600 mb-6 block group-hover:scale-110 transition"></i>
+                    <h3 class="text-xl font-bold mb-3">Problem Solving</h3>
+                    <p class="text-slate-500 text-sm">Approaching complex challenges with analytical thinking and creative solutions.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <i class="fas fa-comments text-4xl text-blue-600 mb-6 block group-hover:scale-110 transition"></i>
+                    <h3 class="text-xl font-bold mb-3">Communication</h3>
+                    <p class="text-slate-500 text-sm">Articulating ideas clearly to stakeholders and technical teams alike.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <i class="fas fa-users text-4xl text-blue-600 mb-6 block group-hover:scale-110 transition"></i>
+                    <h3 class="text-xl font-bold mb-3">Leadership</h3>
+                    <p class="text-slate-500 text-sm">Managing team dynamics to ensure project goals are met efficiently.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <i class="fas fa-code text-4xl text-blue-600 mb-6 block group-hover:scale-110 transition"></i>
+                    <h3 class="text-xl font-bold mb-3">Technical Skills</h3>
+                    <p class="text-slate-500 text-sm">Proficient in modern tools and technologies to drive digital transformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="py-24 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Achievements & Projects</h2>
+            
+            <div class="bg-white p-4 rounded-3xl shadow-2xl border border-slate-200 mb-12">
+                <div class="flex items-center justify-between p-6 border-b border-slate-100">
+                    <div>
+                        <h3 class="text-2xl font-bold">Featured Presentation</h3>
+                        <p class="text-slate-500">A detailed showcase of my project milestones.</p>
+                    </div>
+                    <a href="https://1drv.ms/p/c/269df27a35337d75/IQDGendwPpDDRrgff0c8_GvGARU9SEh9x6E4bk9Cq8OVEG0?e=2lMmbQ" target="_blank" class="text-blue-600 font-bold hover:underline">Open in New Tab <i class="fas fa-external-link-alt ml-1"></i></a>
+                </div>
+                <div class="aspect-video w-full rounded-xl overflow-hidden mt-4">
+                    <iframe src="https://onedrive.live.com/embed?resid=269DF27A35337D75%2143496&authkey=%21AIZ6EH9HPPxrxgE&em=2" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="flex items-start p-6 bg-white rounded-2xl shadow-sm border border-slate-100">
+                    <div class="bg-blue-100 p-4 rounded-lg mr-6 text-blue-600"><i class="fas fa-trophy text-2xl"></i></div>
+                    <div>
+                        <h4 class="font-bold text-lg">Project Delivery</h4>
+                        <p class="text-slate-500">Successfully led the delivery of cross-functional projects with 100% stakeholder satisfaction.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-6 bg-white rounded-2xl shadow-sm border border-slate-100">
+                    <div class="bg-blue-100 p-4 rounded-lg mr-6 text-blue-600"><i class="fas fa-certificate text-2xl"></i></div>
+                    <div>
+                        <h4 class="font-bold text-lg">Continuous Education</h4>
+                        <p class="text-slate-500">Awarded multiple certifications in advanced management and technical systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16">Let's Connect</h2>
+            <div class="grid md:grid-cols-2 gap-12 text-left max-w-4xl mx-auto">
+                <div class="space-y-8">
+                    <div class="flex items-center space-x-6 p-6 rounded-2xl bg-slate-800/50 border border-slate-700">
+                        <i class="fas fa-phone text-3xl text-blue-500"></i>
+                        <div>
+                            <p class="text-slate-400 text-xs uppercase font-bold tracking-widest">Call Me</p>
+                            <a href="tel:9981450270" class="text-xl font-bold hover:text-blue-400">+91 9981450270</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-6 p-6 rounded-2xl bg-slate-800/50 border border-slate-700">
+                        <i class="fas fa-envelope text-3xl text-blue-500"></i>
+                        <div>
+                            <p class="text-slate-400 text-xs uppercase font-bold tracking-widest">Email Me</p>
+                            <a href="mailto:abhirajsinghjadav3@gmail.com" class="text-xl font-bold hover:text-blue-400">abhirajsinghjadav3@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-6 py-4 focus:ring-2 focus:ring-blue-500 outline-none">
+                    <textarea placeholder="Your Message" rows="4" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-6 py-4 focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-xl font-bold text-lg transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 py-12 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Abhiraj Singh Jadav. Built for the future.</p>
+    </footer>
+
+</body>
+</html>
